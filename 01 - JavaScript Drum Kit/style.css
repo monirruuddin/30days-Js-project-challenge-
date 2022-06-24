@@ -14,7 +14,7 @@ body{
 }
 
 .keys {
-  display: flex;
+  /* display: flex; */
   /* flex: 1; */
   align-items: center;
   justify-content: center;
@@ -35,6 +35,7 @@ body{
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  display: inline-block;
 }
 
 .playing {
