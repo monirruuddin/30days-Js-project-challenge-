@@ -1,0 +1,73 @@
+html {
+  font-size: 10px;
+  
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+body{
+ 
+}
+
+.keys {
+  display: flex;
+  /* flex: 1; */
+  align-items: center;
+  justify-content: center;
+  /* background: url('./background.jpg') bottom center;
+  background-size: cover; */
+  /* margin-top: 400px; */
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  color:#000;
+  background-color: #14EB48;
+  text-shadow: none;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #14EB48;
+}
+.img img{
+  max-height: 100%;
+  background-size: cover;
+  max-width: 100%;
+}
+h1{
+  color:#fff;
+  font-size: 30px;
+}
+p{
+  color:aliceblue;
+  font-size: 18px;
+
+}
